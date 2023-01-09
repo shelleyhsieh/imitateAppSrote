@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D96B3CBC2952B3AB00DDA920 /* RankAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96B3CBB2952B3AB00DDA920 /* RankAppViewController.swift */; };
+		D96B3CBE2952B3F600DDA920 /* RankAppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96B3CBD2952B3F600DDA920 /* RankAppTableViewCell.swift */; };
+		D96B3CC02952BC5C00DDA920 /* UITableViewCell+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96B3CBF2952BC5C00DDA920 /* UITableViewCell+Extention.swift */; };
 		D9ECE2AC295006D900876126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ECE2AB295006D900876126 /* AppDelegate.swift */; };
 		D9ECE2AE295006D900876126 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ECE2AD295006D900876126 /* SceneDelegate.swift */; };
-		D9ECE2B0295006D900876126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ECE2AF295006D900876126 /* ViewController.swift */; };
 		D9ECE2B3295006D900876126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9ECE2B1295006D900876126 /* Main.storyboard */; };
 		D9ECE2B5295006DA00876126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9ECE2B4295006DA00876126 /* Assets.xcassets */; };
 		D9ECE2B8295006DA00876126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9ECE2B6295006DA00876126 /* LaunchScreen.storyboard */; };
+		D9ECE2C0295007D100876126 /* appTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ECE2BF295007D100876126 /* appTableViewController.swift */; };
+		D9ECE2C22950084D00876126 /* MultiUseAppTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ECE2C12950084D00876126 /* MultiUseAppTableViewController.swift */; };
+		D9ECE2C629500E8000876126 /* appInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ECE2C529500E8000876126 /* appInfo.swift */; };
+		D9ECE2C829502F9500876126 /* multiUseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ECE2C729502F9500876126 /* multiUseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D96B3CBB2952B3AB00DDA920 /* RankAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankAppViewController.swift; sourceTree = SOURCE_ROOT; };
+		D96B3CBD2952B3F600DDA920 /* RankAppTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankAppTableViewCell.swift; sourceTree = "<group>"; };
+		D96B3CBF2952BC5C00DDA920 /* UITableViewCell+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extention.swift"; sourceTree = SOURCE_ROOT; };
 		D9ECE2A8295006D900876126 /* imitateAppSrote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imitateAppSrote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9ECE2AB295006D900876126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9ECE2AD295006D900876126 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D9ECE2AF295006D900876126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9ECE2B2295006D900876126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9ECE2B4295006DA00876126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9ECE2B7295006DA00876126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9ECE2B9295006DA00876126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9ECE2BF295007D100876126 /* appTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		D9ECE2C12950084D00876126 /* MultiUseAppTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiUseAppTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		D9ECE2C529500E8000876126 /* appInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appInfo.swift; sourceTree = SOURCE_ROOT; };
+		D9ECE2C729502F9500876126 /* multiUseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiUseTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,15 @@
 		D9ECE2AA295006D900876126 /* imitateAppSrote */ = {
 			isa = PBXGroup;
 			children = (
+				D96B3CBF2952BC5C00DDA920 /* UITableViewCell+Extention.swift */,
+				D96B3CBD2952B3F600DDA920 /* RankAppTableViewCell.swift */,
+				D96B3CBB2952B3AB00DDA920 /* RankAppViewController.swift */,
+				D9ECE2C729502F9500876126 /* multiUseTableViewCell.swift */,
+				D9ECE2C12950084D00876126 /* MultiUseAppTableViewController.swift */,
+				D9ECE2BF295007D100876126 /* appTableViewController.swift */,
+				D9ECE2C529500E8000876126 /* appInfo.swift */,
 				D9ECE2AB295006D900876126 /* AppDelegate.swift */,
 				D9ECE2AD295006D900876126 /* SceneDelegate.swift */,
-				D9ECE2AF295006D900876126 /* ViewController.swift */,
 				D9ECE2B1295006D900876126 /* Main.storyboard */,
 				D9ECE2B4295006DA00876126 /* Assets.xcassets */,
 				D9ECE2B6295006DA00876126 /* LaunchScreen.storyboard */,
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9ECE2B0295006D900876126 /* ViewController.swift in Sources */,
+				D9ECE2C22950084D00876126 /* MultiUseAppTableViewController.swift in Sources */,
+				D96B3CC02952BC5C00DDA920 /* UITableViewCell+Extention.swift in Sources */,
 				D9ECE2AC295006D900876126 /* AppDelegate.swift in Sources */,
+				D9ECE2C629500E8000876126 /* appInfo.swift in Sources */,
+				D9ECE2C0295007D100876126 /* appTableViewController.swift in Sources */,
+				D96B3CBC2952B3AB00DDA920 /* RankAppViewController.swift in Sources */,
+				D96B3CBE2952B3F600DDA920 /* RankAppTableViewCell.swift in Sources */,
 				D9ECE2AE295006D900876126 /* SceneDelegate.swift in Sources */,
+				D9ECE2C829502F9500876126 /* multiUseTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
